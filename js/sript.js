@@ -1,35 +1,26 @@
 $(document).ready(function () {
     $("#userInputs").submit(function (event) {
-      var name = $("#fName").val();
-      if (name != "") {
-        alert(name + " thanks for sending a message.");
-      } else {
-        alert("Please fill in your details");
-      }
-      event.preventDefault();
+        var name = $("#fName").val();
+        if (name != "") {
+            alert(name + " thanks for sending a message.");
+        } else {
+            alert("Please fill in your details");
+        }
+        event.preventDefault();
     });
-   
+
     //TOGGLE
-    $('.hide p').hide()
-    $('#design-icon').click(function () {
-      $('.design').toggle();
-      $('.design').click(function () {
-        $('#design-icon').toggle();
-        $('#design-icon').hide();
-      });
+    $('.hide p').hide();
+    $('#design').click(function () {
+        $('#design p').toggle();
+        $('#design img').toggle();
     });
-    $('.cont2').hide()
-    $('#tog2').click(function () {
-      $('.cont2').toggle();
-      $('.cont2').click(function () {
-        $('#tog2').toggle();
-      });
+    $('#dev').click(function () {
+        $('#dev p').toggle();
+        $('#dev img').toggle();
     });
-    $('.cont3').hide()
-    $('#tog3').click(function () {
-      $('.cont3').toggle();
-      $('.cont3').click(function () {
-        $('#tog3').toggle();
-      });
+    $('#product').click(function () {
+        $('#product p').toggle();
+        $('#product img').toggle();
     });
-   });
+});
