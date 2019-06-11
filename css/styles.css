@@ -1,16 +1,15 @@
-* {
+* {>
     font-size: large;
 }
 .header{
     background-image: url('../images/h_img.jpg');
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    color: white;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    color: white;
 }
-
 h1 {
     text-align: center;
 
