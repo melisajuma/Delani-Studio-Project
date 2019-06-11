@@ -1,1 +1,20 @@
-.DS_Store
+.DS_Storefunction Melisa(){
+        var name = document.getElementById("fullname").value;
+        var email = document.getElementById("mail").value.indexOf("@");
+        var textarea = document.getElementById("textarea").value;
+      if(name == " "){
+       alert("Kindly type in your name");
+      }
+       
+     if( email ==" "){
+     alert ("Kindly type in your email");
+     }
+     if(textArea==" "){
+     alert("Do you have any message for us?");
+     }
+      
+     else(name !== "" && email !=="" && textArea !== "") {
+         alert (fullname + " we have  received your message. Thank you for reaching out to us.");
+     }
+    }
+    

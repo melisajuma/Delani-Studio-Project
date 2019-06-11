@@ -1,14 +1,15 @@
-function Melisa() {
-    var name=document.getElementById("fullname").value;
-    var email=document.getElementById("mail").value;
-    var textarea=document.getElementById("textarea").value;
-}
-        if (name != "") {
-            alert(name + " Your message has been received, thank you!");
+$(document).ready(function () {
+    var name = document.getElementById("fullname").value;
+        var email = document.getElementById("mail").value.indexOf("@");
+        var textarea = document.getElementById("textarea").value;
+    $("#userInputs").submit(function (event) {
+    
+        if (name !== "" || email==" " || textarea==" ") {
+            alert("Kindly check your details");
         } else {
-            alert("Please fill in your details");
+            alert(fullname + " we have  received your message. Thank you for reaching out to us.");
         }
-        event.preventDefault();
+        
     });
 
     //TOGGLE
