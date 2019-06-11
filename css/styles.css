@@ -1,7 +1,7 @@
 * {
     font-size: large;
 }
-p {>
+p {
     
     font-family: 'Catamaran', sans-serif;
     text-align: center;
@@ -15,7 +15,7 @@ p {>
     text-align: center;
     color: white;
 }
-h1 {
+h1 {>
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
     
