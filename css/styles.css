@@ -106,7 +106,7 @@ form {
     max-width: 100%;
 
 }
-form input {>
+form input {
     width: 45%;
 }
 form textarea {
@@ -157,7 +157,7 @@ form input[type=submit]:hover {
     outline: none;
 }
 
-#social-media-handles {>
+#social-media-handles {
     display: flex;
     text-align: center;
     width: 100%;
