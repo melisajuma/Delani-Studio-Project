@@ -169,7 +169,7 @@ form input[type=submit]:hover {
     color: white;
     
 }
-#first {
+#first {>
     margin-top: 5%;
     margin-bottom: 5%;
 }
