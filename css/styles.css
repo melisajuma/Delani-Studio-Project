@@ -1,7 +1,7 @@
-* {>
+* {
     font-size: large;
 }
-.header{
+.header{>
     background-image: url('../images/h_img.jpg');
     background-repeat: no-repeat;
     margin-bottom: 7%;
