@@ -41,7 +41,7 @@ h3{
     margin-top:10%;
 }
 
-#logo {>
+#logo {
     
     margin-top: 10%;
     margin-bottom: 5%;
@@ -50,7 +50,7 @@ h3{
     
 }
 
-#mouseclick {
+#mouseclick {>
     margin-top: 10%;
     margin-bottom: 5%;
     margin-right:auto;
