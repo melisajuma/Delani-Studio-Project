@@ -1,8 +1,10 @@
-$(document).ready(function () {
-    $("#userInputs").submit(function (event) {
-        var name = $("#fName").val();
+function Melisa() {
+    var name=document.getElementById("fullname").value;
+    var email=document.getElementById("mail").value;
+    var textarea=document.getElementById("textarea").value;
+}
         if (name != "") {
-            alert(name + " thanks for sending a message.");
+            alert(name + " Your message has been received, thank you!");
         } else {
             alert("Please fill in your details");
         }
