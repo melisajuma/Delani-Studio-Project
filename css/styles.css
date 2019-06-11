@@ -17,7 +17,7 @@ h1 {
     font-family: 'Archivo Black', sans-serif;
 }
 #what-we-do {
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 5%;
 
 }
@@ -37,15 +37,16 @@ p {
 }
 
 #logo {
-    margin-right: 60%;
-    margin-left: 50%;
+    margin-right:auto;
+    margin-left:auto;
     margin-top: 8%;
     margin-bottom: 5%;
     
 }
 
-#mouse {
-    margin-left: 50%;
+#mouseclick {
+    margin-right:auto;
+    margin-left:auto;
     margin-top: 8%;
     margin-bottom: 5%;
     position: center;
@@ -57,26 +58,42 @@ h3 {
 }
 
 #services {
-    background-image: url('assets/backgrounds/s_image.jpg');
+    background-image: url('../IP3/assets/backgrounds/s_image.jpg');
     background-position: center;
-    color: white;
+    color:white;
     background-size: cover;
     padding: 100px 10%;
     margin-top: 5%;
     margin-bottom: 5%;
 
 }
+#design{
+    text-align:center;
+}
+#dev{
+    text-align:center;
+}
+#product{
+    text-align:center;
+}
 
 #contact {
-    background-image: url('assets/backgrounds/c_image.jpg');
+    background-image: url('../IP3/assets/backgrounds/c_image.jpg');
     padding: 20px 5px;
     color: white;
     background-image: cover;
-    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
     margin-top: 5%;
     margin-bottom: 5%;
-
-
+}
+#submission{
+    margin-right:auto;
+    margin-left:auto;
+}
+#submitbutton{
+    margin-right:70%;
+    margin-left:0%;
 }
 
 form {
