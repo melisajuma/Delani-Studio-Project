@@ -101,12 +101,12 @@ h3{
     margin-left:0%;
 }
 
-form {>
+form {
     width: 800px;
     max-width: 100%;
 
 }
-form input {
+form input {>
     width: 45%;
 }
 form textarea {
