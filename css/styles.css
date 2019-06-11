@@ -96,12 +96,12 @@ h3{
     margin-right:auto;
     margin-left:auto;
 }
-#submitbutton{>
+#submitbutton{
     margin-right:70%;
     margin-left:0%;
 }
 
-form {
+form {>
     width: 800px;
     max-width: 100%;
 
