@@ -27,15 +27,18 @@ h2 {
     margin-right:auto;
     
 }
-h3{>
+h3{
     font-family: 'Noto Sans', sans-serif;
     text-align: center; 
 }
 
-#what-we-do {
-    margin-top: 2%;
+#what-we-do {>
+    margin-top: 6%;
     margin-bottom: 4%;
 
+}
+#top{
+    margin-top:10%;
 }
 
 #logo {
